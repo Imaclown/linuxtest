@@ -14,7 +14,7 @@ public class HelloController {
     public String hello(){
         User name = helloMapper.getName();
 
-        System.out.println(22222);
+        System.out.println(111222);
         return name.toString();
 
     }
