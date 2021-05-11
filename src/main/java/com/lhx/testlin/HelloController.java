@@ -13,6 +13,9 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello(){
         User name = helloMapper.getName();
+
+        System.out.println(111222111);
         return name.toString();
+
     }
 }
